@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body id="course-body">
+    <center><button id="start">Let's start</button></center>
+    <div id="container">
+      <div>
+        <h2>Do you still remember your ip addres?</h2>
+        <h2>Here it is: <span id="ip"></span></h2>
+        <p>Let's calculate the sum of its even digits</p>
+        <button id="calculate">Calculate</button>
+        <p id="sum"></p>
+      </div>
+      <h2>Want to know about internet protocols?</h2>
+      <h3>Register to one of our courses</h3>
+      <h3>(Go to our website and choose your course)</h3>
+      <h2 id="heading">Course Registering Form</h2>
+      <div class="course-form">
+        <form id="course-form">
+          <p>Title</p>
+          <input type="text" id="title" />
+          <p>Code</p>
+          <input type="text" id="code" />
+          <p>Number of Credits</p>
+          <select id="crdt">
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+          </select>
+          <button type="button" id="submit-course" class="sub">Submit</button>
+        </form>
+      </div>
+      <div class="text">
+        <h2>Successfully registered</h2>
+        <h2 id="course-details"></h2>
+        <button id="to-the-top">Go to the top</button>
+        <button>
+          <a href="index.html" id="back">Go to the previous page</a>
+        </button>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="course.js" type="text/javascript"></script>
+  </body>
+</html>
