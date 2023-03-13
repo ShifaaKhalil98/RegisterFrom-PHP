@@ -1,6 +1,4 @@
 <?php
-    include('connection.php');
-
     $email = $_POST['email'];
     $pwd = $_POST['pwd'];
     $confirm_pwd = $_POST['confirm_pwd'];
